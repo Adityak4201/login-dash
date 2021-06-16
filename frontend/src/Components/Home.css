@@ -4,9 +4,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 391px;
+    height: 668px;
+    color: white;
     flex-direction: column;
-    
+    background: url("./home.jpeg");
+    background-repeat: round;
 }
 .logo{
   font-size: medium;

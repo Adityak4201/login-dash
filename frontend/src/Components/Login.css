@@ -1,6 +1,6 @@
 .outer{
-    background: url(https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
-    height:40rem;
+    background: url("./login.jpeg");
+    height: 668px;
     background-size: cover;
 }
 .content{
@@ -16,8 +16,8 @@
     width: 25rem;
     border: 2px solid #91b7e3;
     /* padding-bottom: 19px; */
-    background: #faf8f3;
-    border-radius: 30px;
+    background: #ffffff;
+    border-radius: 5px;
     height: 265px;
     flex-wrap: wrap;
 
@@ -27,12 +27,25 @@
     text-align: center;
     position: relative;
     top: 30px;
+    color: #6c9fda;
 }
 .inputcontainer{
     float: right;
     width: 15rem;
+
+    border: 2px solid;
+    border-color: #dcdada;
+    height: 30px;
+    /* box-shadow: 0 0 5pt 2pt #D3D3D3; */
+  
+}
+.inputcontainer:hover{
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
 }
 .labelcontainer{
     padding-left: 0px;
     padding-right: 30px;
+}
+.btn{
+    background-color: #91b7e3;
 }

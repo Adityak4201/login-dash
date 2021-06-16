@@ -42,12 +42,12 @@ const Register = (props) => {
 
   return (
     <div className="Rcontainer">
-      
-      <form className="register-form" id="register-form">
       <p className="form-title">Register Here!!</p>
+      <form className="register-form" id="register-form">
+      
         <div className="form-group">
-          <label className="Rlabelcontainer" htmlFor="name">Name</label>
-          <input className="Rinputcontainer"
+          {/* <label className="Rlabelcontainer" htmlFor="name">Name</label> */}
+          <input className="Rinputcontainer" placeholder="Name"
             type="text"
             value={user.name}
             onChange={handleInputs}
@@ -57,8 +57,8 @@ const Register = (props) => {
           />
         </div>
         <div className="form-group">
-          <label className="Rlabelcontainer" htmlFor="username">Username</label>
-          <input className="Rinputcontainer"
+          {/* <label className="Rlabelcontainer" htmlFor="username">Username</label> */}
+          <input className="Rinputcontainer"  placeholder="Username"
             type="text"
             value={user.username}
             onChange={handleInputs}
@@ -68,8 +68,8 @@ const Register = (props) => {
           />
         </div>
         <div className="form-group">
-          <label className="Rlabelcontainer" htmlFor="password">Password</label>
-          <input className="Rinputcontainer"
+          {/* <label className="Rlabelcontainer" htmlFor="password">Password</label> */}
+          <input className="Rinputcontainer" placeholder="Password"
             type="password"
             value={user.password}
             onChange={handleInputs}
@@ -79,8 +79,8 @@ const Register = (props) => {
           />
         </div>
         <div className="form-group">
-          <label className="Rlabelcontainer" htmlFor="cpassword">Confirm Password</label>
-          <input className="Rinputcontainer"
+          {/* <label className="Rlabelcontainer" htmlFor="cpassword">Confirm Password</label> */}
+          <input className="Rinputcontainer"   placeholder="Confirm Password"
             type="password"
             value={user.cpassword}
             onChange={handleInputs}
@@ -97,7 +97,7 @@ const Register = (props) => {
       )}
       <br />
         <div className="form-group form-button">
-          <input
+          <input 
             type="button"
             className="form-submit"
             onClick={handleRegister}

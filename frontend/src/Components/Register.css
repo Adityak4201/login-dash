@@ -1,18 +1,21 @@
 .Rcontainer{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    /* background: url(https://source.unsplash.com/random); */
-    display: flex;
-    align-content: center;
-    justify-content: center;
 
-    background: url(https://source.unsplash.com/random);
-    
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background: url("./register.jpeg");
     background-size: cover;
     background-position-y: center;
     background-repeat: no-repeat;
-    height: 40rem;
+    height: 668px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Rcontainer p{
+    justify-items: center;
+    align-items: center;
+    font-family: -webkit-pictograph;
+    color: #ffffff;
 }
 .form-title{
     text-align: center;
@@ -21,6 +24,13 @@
 .Rinputcontainer{
     float: right;
     width: 15rem;
+    border: 2px solid;
+    border-color: #dcdada;
+    height: 30px;
+    
+}
+.Rinputcontainer:hover{
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
 }
 .Rlabelcontainer{
     padding-left: 0px;
@@ -31,27 +41,25 @@
     padding-top: 12px;
 }
 .register-form{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+
     align-items: stretch;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: space-around;
-    width: 35rem;
-    position: relative;
-    top: 75px;
-    background: #faf8f3;
+    width: 25rem;
+    background: #ffffff;
     border: 2px solid #91b7e3;
-    /* padding-bottom: 19px; */
-    border-radius: 30px;
-    height: 27rem;
+    border-radius: 5px;
+    height: 21rem;
     flex-wrap: wrap;
 }
 .form-submit{
+  
     display: block;
     margin: auto;
+    width: -webkit-fill-available;
+    border: none;
+    background: #91b7e3;
+    height: 32px;
 }

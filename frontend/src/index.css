@@ -14,8 +14,14 @@ code {
 
 .header {
   padding: 30px;
-  border-bottom: 1px solid #9999;
-  background: #edf2f4;
+  border-bottom: 0px solid #0a0a0a;
+  background: #0a0a0a;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .header a {
@@ -38,7 +44,7 @@ code {
 }
 
 .content {
-  padding: 20px;
+  padding: 0px;
 }
 
 .error {

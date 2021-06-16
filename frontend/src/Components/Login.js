@@ -39,12 +39,12 @@ const Login = (props) => {
       <br />
       <br />
       <div>
-        <label className="labelcontainer" >Username</label>
-        <input className="inputcontainer" type="text" {...username}  />
+        {/* <label className="labelcontainer" >Username</label> */}
+        <input className="inputcontainer" placeholder="Username"  type="text" {...username}  />
       </div>
       <div style={{ marginTop: 10 }}>
-        <label className="labelcontainer" >Password</label>
-        <input className="inputcontainer" type="password" {...password} />
+        {/* <label className="labelcontainer" >Password</label> */}
+        <input className="inputcontainer"  placeholder="Password" type="password" {...password} />
       </div>
       {error && (
         <>
@@ -54,6 +54,7 @@ const Login = (props) => {
       )}
       <br />
       <input
+      className="btn"
         type="button"
         value={loading ? "Loading..." : "Login"}
         onClick={handleLogin}
