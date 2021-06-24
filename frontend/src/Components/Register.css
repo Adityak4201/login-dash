@@ -31,6 +31,7 @@
 
 .single-box {
     width: 419px;
+    margin-top: -10px;
 }
 
 .right-box {
@@ -45,7 +46,7 @@
 
 #submitDetails {
     width:400px;
-    margin-top:20px;
+    margin-top:0px;
     height: 40px;
     color: white;
     background-color:#3770a5;
@@ -96,4 +97,11 @@
 }
 input#cpassword {
     height: 34px !important;
+}
+input#email {
+    width: -webkit-fill-available;
+}
+
+input#lasttName {
+    height: 36px !important;
 }

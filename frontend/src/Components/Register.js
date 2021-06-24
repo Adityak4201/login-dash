@@ -70,6 +70,15 @@ const Register = (props) => {
             id="firstName"
             required
           />
+          <input className="box inline-box right-box"
+            type="text"
+            value={user.lastname}
+            onChange={handleInputs}
+            placeholder="Last Name"
+            name="name"
+            id="lasttName"
+            required
+          />
         </div>
         <div className="input-styles ">
           {/* <label className="box inline-box" htmlFor="email">Email ID</label> */}
@@ -94,6 +103,7 @@ const Register = (props) => {
             id="password"
             required
           />
+          
           <input className="box inline-box right-box"
             type="password"
             value={user.cpassword}
@@ -109,6 +119,16 @@ const Register = (props) => {
           <small style={{ color: "red", textAlign:"center", fontSize:"16px", marginTop:"10px" }}>{error}</small>
       )}
       <br />
+      <div class="input-styles">
+                        {/* <label class="labels box" for="gender">Gender:</label> */}
+                        <select class="box single-box drop-down " id="gender" name="gender">
+                            <option value="gender">Select Gender</option>
+                            <option value="MALE">Male</option>
+                            <option value="FEMALE">Female</option>
+                            <option value="OTHERS">Others</option>
+                        </select>
+                        <br/>
+       </div>
         <div className="input-styles submit-btn">
           <input
             id ="submitDetails"
