@@ -1,51 +1,66 @@
-.outer{
-    background: url("./login.jpeg");
-    height: 668px;
-    background-size: cover;
+#container {
+    width: 100%;
+    height: 100%;
 }
-.content{
-    /* background: url(https://source.unsplash.com/random); */
-}
-.container{
-    position: relative;
-    top: 100px;
+
+#form-container {
     display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-content: space-around;
-    width: 25rem;
-    border: 2px solid #91b7e3;
-    /* padding-bottom: 19px; */
-    background: #ffffff;
-    border-radius: 5px;
-    height: 265px;
-    flex-wrap: wrap;
-
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;  
 }
-.container h1{
-    font-size: 30px;
+
+#loginHeading {
     text-align: center;
-    position: relative;
-    top: 30px;
-    color: #6c9fda;
+    color: #3770a5;
+    padding-top: 1px;
 }
-.inputcontainer{
-    float: right;
-    width: 15rem;
 
-    border: 2px solid;
-    border-color: #dcdada;
-    height: 30px;
-    /* box-shadow: 0 0 5pt 2pt #D3D3D3; */
-  
+.input-styles {
+    margin: 20px;
 }
-.inputcontainer:hover{
-    box-shadow: 0 0 5pt 2pt #D3D3D3;
+
+.box {
+    margin-top:20px;
+    height:35px;
+    width: 415px;
+    padding-left: 10px;
 }
-.labelcontainer{
-    padding-left: 0px;
-    padding-right: 30px;
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
 }
-.btn{
-    background-color: #91b7e3;
+
+#login {
+    width:400px;
+    margin-top: -22px;
+    height: 40px;
+    color: white;
+    background-color:#3770a5;
+    border: none;
+    border-radius: 5px;
+}
+
+#login:hover {
+    background-color: #2f6496;
+}
+
+#form-shadow {
+    box-shadow: 10px 10px 18px #867c7c;
+}
+
+#error {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+}
+
+#registration-page {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
 }
